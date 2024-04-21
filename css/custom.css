@@ -1,0 +1,25 @@
+.bg-image{
+    display: grid;
+    place-content: center;
+}
+.bg-image h1{
+    font-size: 2.5rem;
+    /* font-weight: bold;. */
+    color: #fff;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+.time{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+#purchase{
+    width: 100%;
+}
+.body #des{
+    /* font-size: 14px; */
+}
+.body #tit{
+    font-size: 18px;
+}

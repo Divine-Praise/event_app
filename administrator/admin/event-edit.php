@@ -32,20 +32,30 @@
                             <input type="text" name="title" required value="<?= $events['data']['title']; ?>" class="form-control" />
                         </div>
 
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-6 mb-3">
                             <label for="">Event Date *</label>
                             <input type="date" name="date" required value="<?= $events['data']['date']; ?>" class="form-control" />
                         </div>
 
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-6 mb-3">
+                            <label for="">Event Time *</label>
+                            <input type="text" name="time" required value="<?= $events['data']['time']; ?>" class="form-control" />
+                        </div>
+
+                        <div class="col-md-6 mb-3">
                             <label for="">Event Price (In Naira) *</label>
                             <input type="number" name="price" required value="<?= $events['data']['price']; ?>" class="form-control" />
                         </div>
 
-                        <div class="col-md-4 mb-3">
+                        <div class="col-md-6 mb-3">
                             <label for="">Image *</label>
                             <input type="file" name="image" required class="form-control" />
                             <img src="../<?= $events['data']['image'] ?>" style="width: 80px; height: 80px;" alt="Image">
+                        </div>
+
+                        <div class="col-md-12 mb-3">
+                            <label for="">Event Location *</label>
+                            <input type="text" name="location" value="<?= $events['data']['location']; ?>" required class="form-control" />
                         </div>
 
                         <div class="col-md-12 mb-3">
@@ -60,7 +70,7 @@
 
 
                         <div class="col-md-6">
-                            <label>Status (UnChecked=Active, Checked=Closed)</label><br>
+                            <label>Status (UnChecked = Coming Soon, Checked = Present)</label><br>
                             <input type="checkbox" name="status" <?= $events['data']['status'] == true ? 'checked':''; ?> style="width: 30px; height:30px;">
                         </div>
 

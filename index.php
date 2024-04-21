@@ -1,147 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <!-- basic -->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <!-- mobile metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>The44 Mafia</title>
-      <meta name="keywords" content="">
-      <meta name="description" content="Event Company">
-      <meta name="author" content="The44 Mafia">
+<?php 
+   include('includes/header.php'); 
+   include('includes/navbar.php');
+   include('includes/banner.php');
+?>
 
-      <!-- bootstrap css -->
-      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-
-      <!-- style css -->
-      <link rel="stylesheet" type="text/css" href="css/style.css">
-
-      <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
-
-      <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
-
-      <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-
-      <!-- Tweaks for older IEs-->
-      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-
-      <!-- owl stylesheets --> 
-      <link href="https://fonts.googleapis.com/css?family=Orbitron:400,500,600,700|Poppins:400,700&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="css/owl.carousel.min.css">
-      <link rel="stylesoeet" href="css/owl.theme.default.min.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-   </head>
-   <body>
-
-
-      <!--header section start -->
-      <div class="header_section">
-         <div class="container-fluid padding_0">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <a class="logo" href="index.html"><img src=""></a>
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                 <span class="navbar-toggler-icon"></span>
-               </button>
-               <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
-                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="news.html">Blog</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="videos.html">Events</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="contac.html">Contact Us</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#"><img src="images/user-icon.png"> <span class="padding_left_10"></span></a>
-                     </li>
-                     <li class="nav-item">
-                       <a class="nav-link" href="#"><img src="images/shopping-bag.png"></a>
-                     </li>
-                  </ul>
-               </div>
-            </nav>
-         </div>
-      </div>
-      <!-- header section end -->
-
-
-      <!-- banner section start -->
-      <div class="banner_section layout_padding">
-         <div id="main_slider" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-               <div class="carousel-item active">
-                  <div class="container">
-                     <div class="banner_taital">
-                        <h1 class="banner_taital">The 44</h1>
-                        <p class="banner_text">Online Ticket Sales</p>
-                     </div>
-                     <div class="play_now_bt"><a href="videos.html">Explore Now!</a></div>
-                     <h1 class="Music_text">Festivals</h1>
-                     <form class="example" action="/action_page.php">
-                       <input type="text" placeholder="Search.." name="search">
-                       <button type="submit"><i class="fa fa-search"></i></button>
-                     </form>
-                  </div>
-                  <div class="container-fluid">
-                     <h4 class="number_text active"><span style="text-align: right; float: right;"></span></h4>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <div class="banner_taital">
-                        <h1 class="banner_taital">The 44</h1>
-                        <p class="banner_text">Event Management</p>
-                     </div>
-                     <div class="play_now_bt"><a href="videos.html">Explore Now!</a></div>
-                     <h1 class="Music_text">Concerts</h1>
-                     <form class="example" action="/action_page.php">
-                       <input type="text" placeholder="Search.." name="search">
-                       <button type="submit"><i class="fa fa-search"></i></button>
-                     </form>
-                  </div>
-                  <div class="container-fluid">
-                     <h4 class="number_text active"><span style="text-align: right; float: right;"></span></h4>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <div class="banner_taital">
-                        <h1 class="banner_taital">The 44</h1>
-                        <p class="banner_text">Event Discovery</p>
-                     </div>
-                     <div class="play_now_bt"><a href="videos.html">Explore Now!</a></div>
-                     <h1 class="Music_text">Clubs</h1>
-                     <form class="example" action="/action_page.php">
-                       <input type="text" placeholder="Search.." name="search">
-                       <button type="submit"><i class="fa fa-search"></i></button>
-                     </form>
-                  </div>
-                  <div class="container-fluid">
-                     <h4 class="number_text active"><span style="text-align: right; float: right;"></span></h4>
-                  </div>
-               </div>
-            </div>
-            <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
-              <i class="fa fa-angle-left"></i>
-            </a>
-            <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
-              <i class="fa fa-angle-right"></i>
-            </a>
-         </div>
-      </div>
-      <!-- banner section end -->
 
 
       <!-- news section start -->
@@ -149,7 +11,7 @@
          <div class="container">
             <div class="news_taital_main">
                <h1 class="latest_text">Featured Events</h1>
-               <div class="seemor_bt"><a href="instagram.com/44mafia_?">See More</a></div>
+               <div class="seemor_bt"><a href="videos.php">See More</a></div>
             </div>
          </div>
       </div>
@@ -157,50 +19,41 @@
          <div class="container">
             <div class="down_arrow"><img src="images/down-arrow.png"></div>
             <div class="row">
-               <div class="col-lg-3 col-sm-6">
-                  <div class="images_main">
-                     <div class="image_1"><img src="images/ft1.jpg" class="image_1"></div>
-                     <div class="text_main">
-                        <h2 class="business_text">AUGUST MADNESS</h2>
-                        <p class="date_text">16/08/2023</p>
-                     </div>
-                     <p class="ipsum_text">Worked on this amazing project with the "mainland keeds" and it was epic! DJ and Hypemen set was the best!</p>
-                     <div class="seemor_bt_1"><a href="https://www.instagram.com/p/Cv_yeZYMvQi/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">See More</a></div>
-                  </div>
-               </div>
-               <div class="col-lg-3 col-sm-6">
-                  <div class="images_main">
-                     <div class="image_1"><img src="images/ft2.jpg" class="image_1"></div>
-                     <div class="text_main">
-                        <h2 class="business_text">HOMECOMING</h2>
-                        <p class="date_text">27/03/2024<br>01/04/2024</p>
-                     </div>
-                     <p class="ipsum_text">If you know homecoming then definitely, you know the package that comes with the name only! See y'all next year.</p>
-                     <div class="seemor_bt_1"><a href="https://www.instagram.com/ourhomecoming?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">See More</a></div>
-                  </div>
-               </div>
-               <div class="col-lg-3 col-sm-6">
-                  <div class="images_main">
-                     <div class="image_1"><img src="images/ft3.jpg" class="image_1"></div>
-                     <div class="text_main">
-                        <h2 class="business_text">HUE THE PARTY</h2>
-                        <p class="date_text">08/12/2023</p>
-                     </div>
-                     <p class="ipsum_text">Partnering with the shina niggas on this masterpiece was on of the best highlights of December, no slacks!</p>
-                     <div class="seemor_bt_1"><a href="https://www.instagram.com/p/CzmA14psLwq/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">See More</a></div>
-                  </div>
-               </div>
-               <div class="col-lg-3 col-sm-6">
-                  <div class="images_main">
-                     <div class="image_1"><img src="images/ft4.jpg" class="image_1"></div>
-                     <div class="text_main">
-                        <h2 class="business_text">FUSION</h2>
-                        <p class="date_text">29/07/2023</p>
-                     </div>
-                     <p class="ipsum_text">Unusual Entertainment is unargueably also one of the best parties in Lagos and with us on it, 100% rave is guranteed.</p>
-                     <div class="seemor_bt_1"><a href="https://www.instagram.com/p/CtyyPwHsl1d/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">See More</a></div>
-                  </div>
-               </div>
+
+            <?php
+               // $events = getAll('events', 'LIMIT 1');
+               $events = "SELECT * FROM events LIMIT 4";
+               $eventQuery = mysqli_query($conn, $events);
+
+               if($eventQuery){
+                  if(mysqli_num_rows($eventQuery) > 0)
+                  {
+                     ?>
+                        <?php foreach($eventQuery as $eventDetails) : ?>
+                              <div class="col-lg-3 col-sm-6">
+                                 <div class="images_main">
+                                    <div class="image_1"><img src="administrator../<?= $eventDetails['image']; ?>" class="image_1"></div>
+                                    <div class="text_main">
+                                       <h2 class="business_text"><?= $eventDetails['title']; ?></h2>
+                                       <p class="date_text"><?= $eventDetails['date']; ?></p>
+                                    </div>
+                                    <p class="ipsum_text"><?= $eventDetails['sub_description']; ?></p>
+                                    <div class="seemor_bt_1"><a href="seemore.php?id=<?= $eventDetails['id']; ?>">See More</a></div>
+                                 </div>
+                              </div>
+                        <?php endforeach; ?>
+                     <?php
+         
+
+                  }else{
+                     echo '<h5>No Event Found!</h5>';
+                     return false;
+                  }
+               }else{
+                  echo '<h5>Something Went Wrong!</h5>';
+                  return false;
+               }
+            ?>
             </div>
          </div>
       </div>
@@ -464,73 +317,5 @@
       </div>
       <!-- review section end -->
 
-      <!-- footer section start -->
-      <div class="footer_section layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-3 col-sm-6">
-                  <h2 class="footer_text">About</h2>
-                  <p class="lorem_text">From concert to sport games to anything at all, we've got you covered. Your next great experience starts here.</p>
-               </div>
-               <div class="col-lg-3 col-sm-6">
-                  <h2 class="footer_text">Events</h2>
-                  <div class="hollywood_menu">
-                     <ul>
-                        <li><a href="videos.html">Concerts</a></li>
-                        <li><a href="videos.html">Festivals</a></li>
-                        <li><a href="videos.html">Clubs</a></li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="col-lg-3 col-sm-6">
-                  <h2 class="useful_text">Useful link </h2>
-                  <div class="hollywood_menu">
-                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="news.html">Blog</a></li>
-                        <li><a href="videos.html">Events</a></li>
-                        <li><a href="https://wearethe44mafia.substack.com/?">Newsletter</a></li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="col-lg-3 col-sm-6">
-                  <h2 class="useful_text">Contact Us</h2>
-                  <div class="location_text"><img src="images/map-icon.png"><span class="padding_left_10"><a href="https://maps.app.goo.gl/yavA2r9ntK13RS1e6">UNILAG, LAGOS.</a></span></div>
-                  <div class="location_text"><img src="images/call-icon.png"><span class="padding_left_10"><a href="#">(+234)-913-782-6941 || (+234)-901-330-3750</a></span></div>
-                  <div class="location_text"><img src="images/mail-icon.png"><span class="padding_left_10"><a href="#">wearethe44mafia@gmail.com</a></span></div>
-                  <div class="social_icon">
-                     <ul>
-                        <li><a href="x.com/44mafia_?s=21"><img src="images/twitter-icon.png"></a></li>
-                        <li><a href="instagram.com/44mafia_?"><img src="images/instagram-icon.png"></a></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- footer section end -->
-
-      <!-- copyright section start -->
-      <div class="copyright_section">
-         <div class="container">
-            <p class="copyright_text">Copyright 2023 All Rights Reserved. Designed by<a href="www.instagram.com/junk1e._?"> Adegbuyi Michael</a></p>
-         </div>
-      </div>
-      <!-- copyright section end -->
-
-      <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <script src="js/plugin.js"></script>
-
-      <!-- sidebar -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>
-
-      <!-- javascript --> 
-      <script src="js/owl.carousel.js"></script>
-      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script> 
-   </body>
-</html>
+<!-- Footer Section -->
+<?php include('includes/footer.php'); ?>

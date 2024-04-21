@@ -47,9 +47,9 @@
                                 <td>
                                     <?php  
                                         if($item['status'] == 1){
-                                            echo '<span class="badge bg-danger">Closed</span>';
+                                            echo '<span class="badge bg-primary">Present</span>';
                                         }else{
-                                            echo '<span class="badge bg-primary">Active</span>';
+                                            echo '<span class="badge bg-danger">Coming Soon</span>';
                                         }
                                     ?>
                                 </td>

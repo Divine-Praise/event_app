@@ -90,6 +90,8 @@
     {
         $title = validate($_POST['title']);
         $date = validate($_POST['date']);
+        $time = validate($_POST['time']);
+        $location = validate($_POST['location']);
         $price = validate($_POST['price']);
         $subDescription = validate($_POST['sub_description']);
         $mainDescription = validate($_POST['main_description']);
@@ -114,6 +116,8 @@
         $data = [
             'title' => $title,
             'date' => $date,
+            'time' => $time,
+            'location' => $location,
             'price' => $price,
             'sub_description' => $subDescription,
             'main_description' => $mainDescription,
@@ -138,10 +142,13 @@
 
         $title = validate($_POST['title']);
         $date = validate($_POST['date']);
+        $time = validate($_POST['time']);
+        $location = validate($_POST['location']);
         $price = validate($_POST['price']);
         $subDescription = validate($_POST['sub_description']);
         $mainDescription = validate($_POST['main_description']);
         $status = isset($_POST['status']) == true ? 1:0;  
+
 
         if($_FILES['image']['size'] > 0)
         {
@@ -167,6 +174,8 @@
         $data = [
             'title' => $title,
             'date' => $date,
+            'time' => $time,
+            'location' => $location,
             'price' => $price,
             'sub_description' => $subDescription,
             'main_description' => $mainDescription,

@@ -20,19 +20,29 @@
                         <input type="text" name="title" required class="form-control" />
                     </div>
 
-                    <div class="col-md-4 mb-3">
+                    <div class="col-md-6 mb-3">
                         <label for="">Event Date *</label>
                         <input type="date" name="date" required class="form-control" />
                     </div>
 
-                    <div class="col-md-4 mb-3">
+                    <div class="col-md-6 mb-3">
+                        <label for="">Event Time *</label>
+                        <input type="text" name="time" required class="form-control" />
+                    </div>
+
+                    <div class="col-md-6 mb-3">
                         <label for="">Event Price (In Naira) *</label>
                         <input type="number" name="price" required class="form-control" />
                     </div>
 
-                    <div class="col-md-4 mb-3">
+                    <div class="col-md-6 mb-3">
                         <label for="">Image *</label>
                         <input type="file" name="image" required class="form-control" />
+                    </div>
+
+                    <div class="col-md-12 mb-3">
+                        <label for="">Event Location *</label>
+                        <input type="text" name="location" value="Undisclosed" required class="form-control" />
                     </div>
 
                     <div class="col-md-12 mb-3">
